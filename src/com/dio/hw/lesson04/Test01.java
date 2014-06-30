@@ -11,7 +11,7 @@ public class Test01 {
                 throw new Exception();
             }
         }
-        return -100;
+        return -10;
     }
     public static void main(String[] args) throws Exception {
         System.out.println("doTest() = " + doTest());

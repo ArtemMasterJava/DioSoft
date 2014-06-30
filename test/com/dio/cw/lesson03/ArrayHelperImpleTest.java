@@ -47,6 +47,6 @@ public class ArrayHelperImpleTest {
         //Assert return value
         assertArrayEquals(expectedValue, returnedValue);
 
-        //verify mock expectation
+        //verify mock expectation test
     }
 }
