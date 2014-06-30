@@ -24,7 +24,7 @@ public class ArrayHelperImpleTest {
         //initialize mocks
 
         //initialize class to test
-        //ClassHelper testClass = new ArrayHelperImple();
+       ClassHelper testClass = new ArrayHelperImple();
         //Invoke method on class to test
         int[] returnedValue = testClass.leftUnion(leftArray, rightArray);
         //Assert return value
