@@ -9,8 +9,8 @@ public class Main
 {
     public static void main(String[] args)
     {
-        Person firstPerson = new Person();
-        Person secondPerson = new Person();
+        PersonOld firstPerson = new PersonOld();
+        PersonOld secondPerson = new PersonOld();
 
         //firstPerson.setPosition(Person.Position.DEVELOPER);
         //secondPerson.setPosition(Person.Position.QA);
@@ -20,12 +20,12 @@ public class Main
         else
             System.out.println("Экземпляры не равны.");
 
-        Person[] firstArray = {firstPerson, secondPerson};
+        PersonOld[] firstArray = {firstPerson, secondPerson};
 
-        firstPerson.setPosition(Person.Position.DEVELOPER);
-        secondPerson.setPosition(Person.Position.QA);
+        firstPerson.setPosition(PersonOld.Position.DEVELOPER);
+        secondPerson.setPosition(PersonOld.Position.QA);
 
-        Person[] secondArray = {firstPerson, secondPerson};
+        PersonOld[] secondArray = {firstPerson, secondPerson};
 
         if(firstArray.equals(secondArray))
             System.out.println("Массивы равны.");

@@ -8,7 +8,7 @@ Cгенерируйте equals/hashcode методы
 Создайте Main класс, в main методе которого проведите сравнение экземпляров по ссылке и через метод equals
  */
 
-public class Person
+public class PersonOld
 {
     private final String name = "Andrey";
     private final int age = 29;
@@ -40,7 +40,7 @@ public class Person
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        Person person = (Person) o;
+        PersonOld person = (PersonOld) o;
 
         if (age != person.age) return false;
         if (!name.equals(person.name)) return false;
