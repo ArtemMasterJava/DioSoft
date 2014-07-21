@@ -18,6 +18,7 @@ public class Test02 {
                 System.out.println("Finally block");
             }
         }
+        //local code review (vtegza): be more descriptive in output @ 21.07.14
         return -1;
     }
     public static void main(String[] args) {

@@ -11,6 +11,7 @@ public class Test01 {
                 throw new Exception();
             }
         }
+        //local code review (vtegza): what '-10' stand for? @ 21.07.14
         return -10;
     }
     public static void main(String[] args) throws Exception {

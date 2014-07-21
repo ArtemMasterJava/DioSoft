@@ -4,6 +4,8 @@ package com.dio.hw.lesson04;
  * Created by Андрей on 28.06.2014.
  */
 import java.util.concurrent.*;
+
+//local code review (vtegza): Runnable is standard interface for java threading, is this your goal? @ 21.07.14
 public class Test04 implements Runnable {
     public void run() {
         try {
