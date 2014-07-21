@@ -10,6 +10,7 @@ import java.util.Map;
  */
 public class CallendarService implements ICalendarService
 {
+    //local code review (vtegza): move to DataStore class @ 21.07.14
     private static Map<Integer,Event> allEvent = new HashMap<Integer, Event>();
 
     public void addEvent(Event newEvent)

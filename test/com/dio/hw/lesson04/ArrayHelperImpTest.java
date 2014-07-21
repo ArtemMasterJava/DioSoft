@@ -11,7 +11,6 @@ import static org.junit.Assert.assertArrayEquals;
  */
 public class ArrayHelperImpTest extends ArrayHelperImp
 {
-    //local code review (vtegza): it is preferred to initiate testClass for every test case @ 21.07.14
     private ArrayHelperImp testClass;
 
     @Before

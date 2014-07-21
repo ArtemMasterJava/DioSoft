@@ -8,11 +8,13 @@ public class PersonArrayHelperImp implements PersonArrayHelper
     public Person[] merge(Person leftArray[], Person rightArray[])
     {
         Person[] res = new Person[leftArray.length + rightArray.length];
+        //local code review (vtegza): replace with arrayCopy @ 21.07.14
         for(int i = 0;i < leftArray.length;i++)
         {
             res[i] = leftArray[i];
         }
 
+        //local code review (vtegza): replace with arrayCopy @ 21.07.14
         for(int i = leftArray.length; i < res.length;i++)
         {
             res[i] = rightArray[i-leftArray.length];
@@ -43,6 +45,7 @@ public class PersonArrayHelperImp implements PersonArrayHelper
         }
 
         Person[] finalResult=new Person[countResEl];
+        //local code review (vtegza): replace with arrayCopy @ 21.07.14
         for(int i=0;i<finalResult.length;i++)
         {
             finalResult[i]=res[i];

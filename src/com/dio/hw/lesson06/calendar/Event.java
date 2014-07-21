@@ -16,6 +16,7 @@ public class Event
     private final List<String> attenders;
     private final Date startDate;
     private final Date endDate;
+    //local code review (vtegza): use java.util.UUID @ 21.07.14
     private final UID id = new UID();
 
     private Event(Builder builder)

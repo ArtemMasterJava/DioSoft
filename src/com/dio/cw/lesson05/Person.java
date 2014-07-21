@@ -10,6 +10,7 @@ Cгенерируйте equals/hashcode методы
 
 import com.sun.javafx.scene.layout.region.BackgroundImage;
 
+//local code review (vtegza): use code formatter @ 21.07.14
 public class Person
 {
     private final String firstName;

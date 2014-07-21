@@ -5,5 +5,6 @@ package com.dio.cw.lesson05;
  */
 public interface PersonArrayHelper
 {
+    //local code review (vtegza): no need to add public modifier in public interface, it is public by default @ 21.07.14
     public Person[] merge(Person firstArrayPerson[], Person secondArrayPerson[]);
 }

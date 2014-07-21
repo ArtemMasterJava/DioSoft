@@ -10,6 +10,7 @@ Cгенерируйте equals/hashcode методы
 
 public class PersonOld
 {
+    //local code review (vtegza): add constructor in order to set final fields @ 21.07.14
     private final String name = "Andrey";
     private final int age = 29;
     private Position position;

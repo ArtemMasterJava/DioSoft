@@ -7,6 +7,7 @@ import java.util.*;
  */
 public class Main
 {
+    //local code review (vtegza): add some output @ 21.07.14
     public static void main(String[] args)
     {
         List<String> descriptions = new ArrayList<String>();
